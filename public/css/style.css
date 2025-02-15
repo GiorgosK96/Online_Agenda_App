@@ -1,0 +1,94 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+
+.title {
+    color: #007BFF;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0; 
+    box-sizing: border-box;
+}
+
+
+.container, form {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+
+h1 {
+    color: #007BFF;
+    margin-top: 0;
+}
+
+p, label {
+    line-height: 1.6;
+}
+
+
+input[type="text"], input[type="email"], input[type="password"] {
+    box-sizing: border-box; 
+}
+
+
+@media (max-width: 600px) {
+    .container, form {
+        width: 95%; 
+        padding: 15px; 
+    }
+    input[type="text"], input[type="email"], input[type="password"], button {
+        width: 100%; 
+    }
+}
+
+
+
+button, .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+button:hover, .button:hover {
+    background-color: #0056b3;
+}
+
+
+form {
+    margin: 20px;
+}
+
+br {
+    clear: both; 
+}
+
+
+label {
+    display: block;
+    margin-top: 20px;
+}
