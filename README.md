@@ -1,6 +1,6 @@
 # Online Agenda App
 
-A web-based agenda application that allows users to manage their appointments, events, and schedules efficiently. Built using HTML, PHP, JavaScript, MySQL, and FullCalendar.js for event management.
+An agenda application that allows users to manage their appointments, events, and schedules efficiently. Built using HTML, PHP, JavaScript, MySQL, and FullCalendar.js for event management.
 
 
 ## Features
